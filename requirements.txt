@@ -1,6 +1,9 @@
-numpy
-pandas
-matplotlib
-Cython==0.29.28
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+torch==1.11.0+cu113 
+torchvision==0.12.0+cu113 
+torchaudio==0.11.0
+numpy==1.19.2
 d3rlpy==1.1.1
-ipykernel
+pandas==2.0.3
+matplotlib
