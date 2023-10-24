@@ -10,3 +10,24 @@ Team:
 
 Alexandra Ivanova\
 Andrey Galichin
+
+### Prerequisites
+
+Our code is GPU-based, so we require you to have a gpu compatible with **CUDA 11.3** or less cudatoolkit version.
+
+To construct the environment, you can use any package manager you want. Required packages can be installed via *pip* as follows:
+
+```
+pip install -r requirements.txt
+```
+
+### Training
+
+Training the model is done as simple as:
+
+```
+python train.py
+```
+
+You can change the default parameters passed to `train.py` by changing default parameters during. For more information about available parameters run `python train.py -h`.
+You can access training results in default `d3rlpy_logs/` directory or the one specified by `logdir` flag.
