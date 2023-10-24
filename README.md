@@ -29,5 +29,5 @@ Training the model is done as simple as:
 python train.py
 ```
 
-You can change the default parameters passed to `train.py` by changing default parameters during. For more information about available parameters run `python train.py -h`.
+You can change the default parameters passed to `train.py` if you want. For more information about available parameters run `python train.py -h`.
 You can access training results in default `d3rlpy_logs/` directory or the one specified by `logdir` flag.
